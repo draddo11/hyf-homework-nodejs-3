@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
     res.send("Hello World!");
 })
 
-app.get('/users',(req,res)=>{
+app.get('/users/:id',(req,res)=>{
 res.send([])
 });
 
