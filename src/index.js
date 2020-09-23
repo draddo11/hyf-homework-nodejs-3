@@ -21,7 +21,7 @@ res.send([])
 //     });
     
 app.get('/user/:id',(req,res)=>{
-    res.send({})
+    res.post({})
     });
 
 
