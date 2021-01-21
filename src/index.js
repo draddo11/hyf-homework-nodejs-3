@@ -21,7 +21,7 @@ app.post('/users',(req,res)=>{
     });
     
  app.post('/users',(req,res)=>{
-        res.send({"name":"chirs"})
+        res.send({"id":0})
         });
 
 app.get('/user/:id',(req,res)=>{
