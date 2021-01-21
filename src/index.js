@@ -16,10 +16,14 @@ app.get('/users',(req,res)=>{
 res.send([])
 });
 
-// app.post('/users',(req,res)=>{
-//     res.send({})
-//     });
+app.post('/users',(req,res)=>{
+    res.send({})
+    });
     
+ app.post('/user/:id',(req,res)=>{
+        res.send({})
+        });
+
 app.get('/user/:id',(req,res)=>{
     res.send({})
     });
